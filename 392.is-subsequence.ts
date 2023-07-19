@@ -9,7 +9,7 @@ function isSubsequence(s: string, t: string): boolean {
   let indexCount = 0;
   for (let i = 0; i < t.length; i++) {
     if (t[i] === s[indexCount]) {
-      indexCount++
+      indexCount++;
     }
   }
   return indexCount === s.length;
